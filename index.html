@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muhammad Ali — AI Engineer</title>
+<meta name="description" content="Muhammad Ali — AI Engineer specializing in Generative AI, RAG systems, and workflow automation.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo">M<span class="dot">.</span>Ali</a>
+    <div class="nav-links">
+      <a href="#about">about</a>
+      <a href="#stack">stack</a>
+      <a href="#work">work</a>
+      <a href="#path">path</a>
+      <a href="#contact" class="nav-cta">contact</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<main>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-inner">
+      <div class="hero-top">
+        <div class="hero-text">
+          <div class="terminal-block">
+            <div class="terminal-bar">
+              <span class="tdot r"></span><span class="tdot y"></span><span class="tdot g"></span>
+              <span class="terminal-title">session.log</span>
+            </div>
+            <div class="terminal-body">
+              <p><span class="prompt">$</span> whoami</p>
+              <p class="output">muhammad_ali — ai_engineer</p>
+              <p><span class="prompt">$</span> status</p>
+              <p class="output typed" id="typedLine"></p>
+              <p class="cursor-line"><span class="prompt">$</span> <span class="blink">_</span></p>
+            </div>
+          </div>
+
+          <h1 class="hero-title">
+            Muhammad Ali
+          </h1>
+          <p class="hero-role">AI Engineer <span class="sep">/</span> Generative AI &amp; RAG Systems <span class="sep">/</span> Workflow Automation</p>
+          <p class="hero-desc">I build production-ready AI applications — retrieval-augmented pipelines, fine-tuned language models, and automated workflows that turn ML theory into tools businesses actually run on.</p>
+
+          <div class="hero-actions">
+            <a href="#work" class="btn btn-primary">View projects <span class="arrow">→</span></a>
+            <a href="assets/resume.pdf" class="btn btn-ghost" download>Download resume <span class="arrow">↓</span></a>
+            <a href="#contact" class="btn btn-ghost">Get in touch</a>
+          </div>
+        </div>
+
+        <div class="hero-photo-wrap">
+          <div class="hero-photo">
+            <img src="assets/photo.png" alt="Muhammad Ali" onerror="this.parentElement.classList.add('photo-fallback')">
+            <span class="initials">MA</span>
+          </div>
+          <span class="photo-ring"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="section-inner">
+      <div class="eyebrow"><span class="eyebrow-mark">01</span> about</div>
+      <div class="about-grid">
+        <p class="about-text">
+          Muhammad Ali is an <strong>Artificial Intelligence student</strong> at The University of Lahore and a results-driven AI Engineer specializing in generative AI systems, workflow automation, and rapid application development. Leveraging hands-on professional internship experience in artificial intelligence and machine learning, he builds production-ready applications utilizing Python, Streamlit, n8n, and advanced LLM architectures including Retrieval-Augmented Generation (RAG) and model fine-tuning.
+          <br><br>
+          Passionate about bridging the gap between complex machine learning theory and scalable software solutions, he consistently delivers efficient, data-driven tools for real-world business automation.
+        </p>
+        <div class="about-meta">
+          <div class="meta-card">
+            <span class="meta-label">based in</span>
+            <span class="meta-value">Lahore, Pakistan</span>
+          </div>
+          <div class="meta-card">
+            <span class="meta-label">focus</span>
+            <span class="meta-value">RAG &amp; LLM Fine-Tuning</span>
+          </div>
+          <div class="meta-card">
+            <span class="meta-label">currently</span>
+            <span class="meta-value">Open to opportunities</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS / STACK -->
+  <section id="stack" class="section alt">
+    <div class="section-inner">
+      <div class="eyebrow"><span class="eyebrow-mark">02</span> stack</div>
+      <h2 class="section-title">Tools of the trade</h2>
+
+      <div class="stack-grid">
+        <div class="stack-card">
+          <h3>Programming languages</h3>
+          <div class="tags">
+            <span class="tag">Python</span><span class="tag">C++</span>
+          </div>
+        </div>
+
+        <div class="stack-card">
+          <h3>AI &amp; machine learning</h3>
+          <div class="tags">
+            <span class="tag">Generative AI</span><span class="tag">RAG</span><span class="tag">Model Fine-Tuning</span><span class="tag">Llama</span><span class="tag">Unsloth</span><span class="tag">OpenAI Whisper</span>
+          </div>
+        </div>
+
+        <div class="stack-card">
+          <h3>Prompt &amp; LLM optimization</h3>
+          <div class="tags">
+            <span class="tag">Advanced Prompt Design</span><span class="tag">Few-Shot / Zero-Shot</span><span class="tag">Chain-of-Thought</span><span class="tag">System Prompt Architecture</span><span class="tag">Context Window Mgmt</span>
+          </div>
+        </div>
+
+        <div class="stack-card">
+          <h3>Automation &amp; rapid dev</h3>
+          <div class="tags">
+            <span class="tag">n8n</span><span class="tag">Streamlit</span><span class="tag">Rapid Application Dev</span><span class="tag">API Integration</span>
+          </div>
+        </div>
+
+        <div class="stack-card">
+          <h3>Data &amp; analytics</h3>
+          <div class="tags">
+            <span class="tag">Pandas</span><span class="tag">NumPy</span><span class="tag">Data Visualization</span><span class="tag">Statistical Analysis</span><span class="tag">MetaTrader 5</span>
+          </div>
+        </div>
+
+        <div class="stack-card">
+          <h3>Deployment &amp; version control</h3>
+          <div class="tags">
+            <span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">Vercel</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="work" class="section">
+    <div class="section-inner">
+      <div class="eyebrow"><span class="eyebrow-mark">03</span> work</div>
+      <h2 class="section-title">Selected projects</h2>
+
+      <div class="project-list">
+
+        <article class="project-card">
+          <div class="project-index">01</div>
+          <div class="project-body">
+            <h3>AI Speech-to-Reasoning Pipeline</h3>
+            <p>A streamlined audio transcription and processing application leveraging the OpenAI Whisper model, Streamlit, and Google Colab for rapid audio analysis.</p>
+            <div class="tags">
+              <span class="tag">OpenAI Whisper</span><span class="tag">Streamlit</span><span class="tag">Google Colab</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-index">02</div>
+          <div class="project-body">
+            <h3>Financial Trading Chart Analyzer</h3>
+            <p>An interactive Streamlit web app with dark glassmorphism styling, live market data via yfinance, and automated Pip &amp; PnL calculators.</p>
+            <div class="tags">
+              <span class="tag">Streamlit</span><span class="tag">yfinance</span><span class="tag">Trading Metrics</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-index">03</div>
+          <div class="project-body">
+            <h3>RAG &amp; Fine-Tuned LLM Architectures</h3>
+            <p>Advanced Retrieval-Augmented Generation pipelines using dynamic 4-bit quantization with Unsloth, and fine-tuned Llama-3-8B models for domain-specific tasks.</p>
+            <div class="tags">
+              <span class="tag">RAG</span><span class="tag">Unsloth</span><span class="tag">Llama-3-8B</span><span class="tag">4-bit Quantization</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-index">04</div>
+          <div class="project-body">
+            <h3>Automated n8n Inventory Management Workflows</h3>
+            <p>Multi-step business process automations and inventory tracking systems integrating webhook triggers, Python scripts, and database operations.</p>
+            <div class="tags">
+              <span class="tag">n8n</span><span class="tag">Webhooks</span><span class="tag">Python</span><span class="tag">Database Ops</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE + EDUCATION -->
+  <section id="path" class="section alt">
+    <div class="section-inner">
+      <div class="eyebrow"><span class="eyebrow-mark">04</span> path</div>
+      <h2 class="section-title">Experience &amp; education</h2>
+
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-date">Jul 2026 – Aug 2026</div>
+          <div class="timeline-content">
+            <h3>Generative AI Intern</h3>
+            <p class="timeline-org">Arch Technologies</p>
+            <p>Developed and deployed Retrieval-Augmented Generation architectures and model fine-tuning pipelines using 4-bit quantization with the Unsloth library and Llama models.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">2026 · Completed</div>
+          <div class="timeline-content">
+            <h3>Artificial Intelligence Intern</h3>
+            <p class="timeline-org">CodeAlpha</p>
+            <p>Completed practical AI engineering tasks, applied machine learning concepts, and built automated workflows — earning a formal Letter of Recommendation.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">2025 – Present</div>
+          <div class="timeline-content">
+            <h3>B.Sc. Artificial Intelligence</h3>
+            <p class="timeline-org">The University of Lahore</p>
+            <p>Undergraduate coursework in artificial intelligence, machine learning, and applied software engineering.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <div class="section-inner">
+      <div class="eyebrow"><span class="eyebrow-mark">05</span> contact</div>
+      <h2 class="section-title">Let's build something</h2>
+      <p class="contact-desc">Open to internships, collaborations, and roles in applied AI &amp; automation. Reach out through any of the channels below.</p>
+
+      <div class="contact-links">
+        <a href="mailto:aliuniet@gmail.com" class="contact-link">
+          <span class="contact-label">email</span>
+          <span class="contact-value">aliuniet@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/muhammad-ali-8a66082b1" target="_blank" rel="noopener" class="contact-link">
+          <span class="contact-label">linkedin</span>
+          <span class="contact-value">/in/muhammad-ali-8a66082b1</span>
+        </a>
+        <a href="https://github.com/mali-ops" target="_blank" rel="noopener" class="contact-link">
+          <span class="contact-label">github</span>
+          <span class="contact-value">/mali-ops</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span> Muhammad Ali. Built with intent.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
