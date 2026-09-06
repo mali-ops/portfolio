@@ -2,7 +2,6 @@
 
 Personal portfolio website for Muhammad Ali, AI Engineer specializing in Generative AI, RAG systems, LLM fine-tuning, and workflow automation.
 
-🔗 **Live site:** _add your Vercel link here after deploying_
 
 ## Overview
 
