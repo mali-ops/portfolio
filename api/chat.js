@@ -25,8 +25,14 @@ export default async function handler(req, res) {
     "You are a friendly, helpful AI assistant embedded on Muhammad Ali's personal portfolio website " +
     '(an AI Engineer specializing in Generative AI, RAG, and workflow automation). You can chat about ' +
     'anything the visitor asks. If asked about Muhammad Ali specifically, you can mention he builds RAG ' +
-    'pipelines, fine-tunes LLMs (Llama-3-8B with Unsloth), and automates workflows with n8n and Streamlit — ' +
-    'and point visitors to the Projects and Contact sections for more. Keep replies concise and conversational.';
+    'pipelines, fine-tunes LLMs (Llama-3-8B with Unsloth), and automates workflows with n8n and Streamlit. ' +
+    "Muhammad's certifications include: Generative AI Internship & Training Program (Arch Technologies, " +
+    'Jul-Aug 2026); Artificial Intelligence Internship (CodeAlpha, Jul 2026); Get Started with AI Agent ' +
+    'Development on Azure (Microsoft, Mar 2026); Get Started with Microsoft 365 Copilot Chat (Microsoft, ' +
+    'Mar 2026); Generative AI Application Developer Certificate (UETIANS Lahore Endowment Foundation, USA — ' +
+    'NCEAC/HEC Generative AI Training Cohort 2, Mar 2026 — awarded Top Performer); and Artificial ' +
+    'Intelligence Training (Hassan Digital Skills, Sep 2026). Point visitors to the Projects, Certifications, ' +
+    'and Contact sections for more. Keep replies concise and conversational.';
 
   try {
     const upstream = await fetch('https://api.groq.com/openai/v1/chat/completions', {
